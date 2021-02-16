@@ -1,1 +1,122 @@
-sdf
+/*FONTS*****************/
+
+@font-face {
+  font-family: Korna_One;
+  src: url(Fonts/Krona_One/KronaOne-Regular.ttf);
+}
+@font-face {
+  font-family: Libre;
+  src: url(Fonts/FONT2/LibreBaskerville-Italic.ttf);
+}
+@font-face {
+  font-family: Cinzel;
+  src: url(Fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+/***********************/
+body{
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(
+  45deg,
+  #bfdbdf,
+  #bfdbdf 30px,
+  #AED1D6 30px,
+  #AED1D6 40px
+);
+}
+h1{
+  font-family: Korna_One;
+}
+p{
+  font-family: Libre;
+}
+li{
+  font-family: Cinzel;
+}
+
+#slider {
+    overflow: hidden;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin:0;
+  left: 0;
+
+}
+#container{
+  position: relative;
+  top: 50px;
+  width: 900px;
+}
+/*Photos******************/
+#brave-image {
+  display: flex;
+  justify-content: center;
+}
+#brave-image img{
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+#incredibles-image{
+  display: flex;
+  justify-content: center;
+}
+#incredibles-image img{
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+#toy1-image{
+  display: flex;
+  justify-content: center;
+}
+#toy1-image img{
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+#toy2-image{
+  display: flex;
+  justify-content: center;
+}
+#toy2-image img{
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+#nemo-image{
+  display: flex;
+  justify-content: center;
+}
+#nemo-image img{
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+/*Photos******************/
+
+#info-box{
+  padding: 25px;
+  margin: 50px;
+  text-align: center;
+}
+
+ul {
+  position: relative;
+  margin-bottom: 400px;
+  list-style-type: none;
+  padding: -20px;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  padding: 15px;
+}
+
+a:hover{
+  background:#cfcbd4;
+}
